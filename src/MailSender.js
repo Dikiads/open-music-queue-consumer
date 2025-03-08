@@ -15,7 +15,7 @@ class MailSender {
         const message = {
             from: 'Open Music App',
             to: targetEmail,
-            subject: 'Expor playlist',
+            subject: 'Export playlist',
             text: 'Terlampir hasil ekpor playlist',
             attachments: [
                 {
